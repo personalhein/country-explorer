@@ -12,7 +12,7 @@
 
 ## 📂 ဖိုင်ဖွဲ့စည်းပုံ (File Structure)
 
-Project တွင် အဓိကဖိုင် (၃) ဖိုင် ပါဝင်သည်-
+Project တွင် အဓိကဖိုင် (၃) ဖိုင် ပါဝင်ပါတယ်-
 
 1.  `index.html` - Web Application ၏ အဓိက အရိုးစု (Structure)။
 2.  `style.css` - ဒီဇိုင်း၊ Layout နှင့် Animation များ။
@@ -21,19 +21,19 @@ Project တွင် အဓိကဖိုင် (၃) ဖိုင် ပါဝ
 ## 🛠️ နည်းပညာပိုင်းဆိုင်ရာ ရှင်းလင်းချက် (Technical Overview)
 
 ### HTML (`index.html`)
-* Search Input, Loader, Grid Container နှင့် Error Message များကို ID သတ်မှတ်ပြီး တည်ဆောက်ထားသည်။
-* Semantics tags များနှင့် Accessibility အတွက် လိုအပ်သော Structure များ ပါဝင်သည်။
+* Search Input, Loader, Grid Container နှင့် Error Message များကို ID သတ်မှတ်ပြီး တည်ဆောက်ထားပါတယ်။
+* Semantics tags များနှင့် Accessibility အတွက် လိုအပ်သော Structure များ ပါဝင်ပါတယ်။
 
 ### CSS (`style.css`)
-* **Grid System:** `grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));` ကိုသုံးထား၍ Screen size အလိုက် Column အရေအတွက်ကို အလိုအလျောက် ညှိပေးသည်။
-* **Animations:** Loader အတွက် `@keyframes spin` ကို အသုံးပြုထားသည်။
-* **Interactivity:** Card များကို Hover လုပ်ပါက အပေါ်သို့ အနည်းငယ်ကြွတက်သွားမည့် Effect (`transform: translateY`) ပါဝင်သည်။
-* **Mobile Support:** `@media (max-width: 600px)` ဖြင့် ဖုန်း Screen များအတွက် သီးသန့် Style များ ရေးသားထားသည်။
+* **Grid System:** `grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));` ကိုသုံးထား၍ Screen size အလိုက် Column အရေအတွက်ကို အလိုအလျောက် ညှိပေးပါတယ်။
+* **Animations:** Loader အတွက် `@keyframes spin` ကို အသုံးပြုထားပါတယ်။
+* **Interactivity:** Card များကို Hover လုပ်ပါက အပေါ်သို့ အနည်းငယ်ကြွတက်သွားမည့် Effect (`transform: translateY`) ထည့်ထားပါတယ်။
+* **Mobile Support:** `@media (max-width: 600px)` ဖြင့် ဖုန်း Screen များအတွက် သီးသန့် Style များ ရေးသားထားပါတယ်။
 
 ### JavaScript (`script.js`)
-* **Async/Await:** `fetchCountries()` function တွင် Data များကို Asynchronous နည်းစနစ်ဖြင့် လှမ်းယူထားသည်။
-* **DOM Manipulation:** ရရှိလာသော Data များကို `map()` method သုံး၍ HTML Element များအဖြစ် ပြောင်းလဲကာ UI တွင် ပြသသည်။
-* **Event Listeners:** `input` event ကို နားထောင်ပြီး Search box တွင် စာရိုက်လိုက်တိုင်း `filter()` method ဖြင့် ရလဒ်များကို ချက်ချင်း ပြောင်းလဲပြသသည်။
+* **Async/Await:** `fetchCountries()` function တွင် Data များကို Asynchronous နည်းစနစ်ဖြင့် လှမ်းယူထားပါတယ်။
+* **DOM Manipulation:** ရရှိလာသော Data များကို `map()` method သုံး၍ HTML Element များအဖြစ် ပြောင်းလဲကာ UI တွင် ပြသပါတယ်။
+* **Event Listeners:** `input` event ကို နားထောင်ပြီး Search box တွင် စာရိုက်လိုက်တိုင်း `filter()` method ဖြင့် ရလဒ်များကို ချက်ချင်း ပြောင်းလဲပြသရန် လုပ်ဆောင်ထားပါတယ်။
 
 ## 🚀 စတင်အသုံးပြုပုံ (How to Run)
 
